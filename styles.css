@@ -1,18 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
 }
 
-.products {
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.fragrances {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.product {
-    width: 200px;
+.fragrance {
+    width: 45%;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
     padding: 20px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.fragrance img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fragrance h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.fragrance p {
+    margin: 0 0 10px;
+}
+
+.fragrance button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fragrance button:hover {
+    background-color: #333;
+}
+
+.about, .contact {
+    margin-bottom: 40px;
+}
+
+.about h2, .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
