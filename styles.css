@@ -26,8 +26,10 @@ main {
 
 .fragrances {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 20px;
 }
 
 .fragrance {
