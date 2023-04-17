@@ -55,8 +55,8 @@ main {
 }
 
 .fragrance button {
-    background-color: #000;
-    color: #fff;
+    background-color: #39ff14;
+    color: #000;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -64,7 +64,7 @@ main {
 }
 
 .fragrance button:hover {
-    background-color: #333;
+    background-color: #2ecc71;
 }
 
 .about, .contact {
