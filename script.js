@@ -12,7 +12,7 @@ function checkout(productName, price) {
     const business = document.createElement('input');
     business.type = 'hidden';
     business.name = 'business';
-    business.value = 'youremail@example.com'; // Replace this with your PayPal email address
+    business.value = 'mikeykettinger@gmail.com'; // Replace this with your PayPal email address
 
     const item_name = document.createElement('input');
     item_name.type = 'hidden';
@@ -24,3 +24,18 @@ function checkout(productName, price) {
     amount.name = 'amount';
     amount.value = price;
 
+    const currency_code = document.createElement('input');
+    currency_code.type = 'hidden';
+    currency_code.name = 'currency_code';
+    currency_code.value = 'USD';
+
+    paypalForm.appendChild(cmd);
+    paypalForm.appendChild(business);
+    paypalForm.appendChild(item_name);
+    paypalForm.appendChild(amount);
+    paypalForm.appendChild(currency_code);
+
+    document.body.appendChild(paypalForm);
+    paypalForm.submit();
+    document.body.removeChild(paypalForm);
+}
