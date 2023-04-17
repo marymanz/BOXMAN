@@ -1,5 +1,6 @@
 .ruby-red {
     color: #9b111e;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 body {
