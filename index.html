@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homemade Fragrances</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Your Fragrance Store</title>
 </head>
 <body>
-    <h1>Welcome to My Homemade Fragrances Store!</h1>
-    <div class="products">
-        <div class="product">
-            <h2>Fragrance 1</h2>
-            <p>Price: $10</p>
-            <button onclick="checkout('Fragrance 1', 10)">Buy Now</button>
-        </div>
-        <div class="product">
-            <h2>Fragrance 2</h2>
-            <p>Price: $15</p>
-            <button onclick="checkout('Fragrance 2', 15)">Buy Now</button>
-        </div>
-    </div>
+    <header>
+        <h1>Your Fragrance Store</h1>
+    </header>
+    <main>
+        <section class="fragrances">
+            <div class="fragrance">
+                <h2>Boxman</h2>
+                <img src="images/boxman.jpg" alt="Boxman" />
+                <p>For men. Natural + organic. Small batches. Exclusive + rare. Created by a master of fine art who studied the intersections of art + science.</p>
+                <p>$50.00</p>
+                <button onclick="checkout('Boxman', 50)">Buy Now</button>
+            </div>
+            <div class="fragrance">
+                <h2>Queen of Hearts</h2>
+                <img src="images/queen-of-hearts.jpg" alt="Queen of Hearts" />
+                <p>For women. Natural + organic. Small batches. Exclusive + rare. Created by a master of fine art who studied the intersections of art + science.</p>
+                <p>$50.00</p>
+                <button onclick="checkout('Queen of Hearts', 50)">Buy Now</button>
+            </div>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Example content: Your Fragrance Store is dedicated to creating exclusive and rare fragrances, handcrafted in small batches. Our founder, a master of fine art with a passion for the intersections of art and science, designs each scent to captivate and allure. We use only the finest natural and organic ingredients to create unique fragrances for both men and women.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Example content: If you have any questions about our products or would like more information, please feel free to contact us at info@yourfragrancestore.com or follow us on our social media channels.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Fragrance Store. All rights reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
